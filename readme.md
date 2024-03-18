@@ -1,1 +1,1 @@
-Say Hello to Democracy!!!!
+Say Hello to Democracy!!!
