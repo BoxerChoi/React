@@ -1,12 +1,16 @@
-import React from 'react';
+import React from 'react';  
+/* (Helper) This helps to import React Module, which is from node_modules directory.
+ Also it is different from "import" function in javascript, which just import remote javascript files. It support importing projects and modules.
+ */
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(
-  <React.StrictMode>
+root.render(  // What is ReactDOM.render? - this code render a component on its page as it recalls react-dom module.
+    //Below (React.StrictMode) prohibit react's legacy function, such as ref, componentWillMount.
+  <React.StrictMode>  
     <App />
   </React.StrictMode>
 );
